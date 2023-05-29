@@ -82,7 +82,7 @@ public class CalculatorTest {
 			Calculator cal = new Calculator();
 			int actual = cal.divide(a, b);
 			
-			assertFalse(exception);
+			assertTrue(exception);
 		} catch (ArithmeticException ae) {
 			
 			exception = true;
